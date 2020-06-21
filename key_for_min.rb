@@ -3,5 +3,5 @@
 
 def key_for_min_value(name_hash)
   min_val = -999999999
-  
+  name_hash.each 
 end
