@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
     return nil
   end
   min_val = -999999999
-  name_hash.each so |key, element|
+  name_hash.each do |key, element|
     if element < min_val
       min_val = element
     end
