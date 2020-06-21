@@ -12,7 +12,7 @@ def key_for_min_value(name_hash)
       min_val_key = key
     end
   end
-  
+  binnng.pry
   puts min_val_key
 end
 
